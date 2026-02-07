@@ -1,0 +1,21 @@
+h1 a, h2 a {
+    color: #C25100;
+}
+header {
+    background-color: #F2F2F2;
+    padding: 20px;
+
+}
+.flex{
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

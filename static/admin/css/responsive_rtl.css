@@ -28,13 +28,17 @@
         margin-left: 0;
     }
 
+<<<<<<< HEAD
     [dir="rtl"] .inline-group ul.tools a.add,
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     [dir="rtl"] .inline-group div.add-row a,
     [dir="rtl"] .inline-group .tabular tr.add-row td a {
         padding: 8px 26px 8px 10px;
         background-position: calc(100% - 8px) 9px;
     }
 
+<<<<<<< HEAD
     [dir="rtl"] .selector .selector-filter label {
         margin-right: 0;
         margin-left: 8px;
@@ -49,11 +53,14 @@
         margin-right: 15px;
     }
 
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     [dir="rtl"] .dashboard .module table td a {
         padding-left: 0;
         padding-right: 16px;
     }
 
+<<<<<<< HEAD
     [dir="rtl"] .selector-add {
         background-position: 0 -80px;
     }
@@ -68,6 +75,11 @@
 
     [dir="rtl"] .active.selector-remove:focus, .active.selector-remove:hover {
         background-position: 0 -140px;
+=======
+    [dir="rtl"] ul.messagelist li {
+        padding: 10px 55px 10px 10px;
+        background-position-x: calc(100% - 30px);
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 }
 
@@ -89,6 +101,14 @@
         margin-left: 0;
         margin-right: 0;
     }
+<<<<<<< HEAD
+=======
+
+    [dir="rtl"] .object-tools {
+        text-align: right;
+    }
+
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     [dir="rtl"] .aligned .vCheckboxLabel {
         padding: 1px 5px 0 0;
     }
@@ -97,6 +117,7 @@
         background-position: 0 0;
     }
 
+<<<<<<< HEAD
     [dir="rtl"] .active.selector-remove:focus, .active.selector-remove:hover {
         background-position: 0 -20px;
     }
@@ -107,5 +128,22 @@
 
     [dir="rtl"] .active.selector-add:focus, .active.selector-add:hover {
         background-position: 0 -60px;
+=======
+    [dir="rtl"] :enabled.selector-remove:focus, :enabled.selector-remove:hover {
+        background-position: 0 -24px;
+    }
+
+    [dir="rtl"] .selector-add  {
+        background-position: 0 -48px;
+    }
+
+    [dir="rtl"] :enabled.selector-add:focus, :enabled.selector-add:hover {
+        background-position: 0 -72px;
+    }
+
+    [dir="rtl"] ul.messagelist li {
+        padding: 10px 40px 10px 10px;
+        background-position-x: calc(100% - 15px);
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 }

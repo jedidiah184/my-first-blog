@@ -170,6 +170,10 @@ input[type="submit"], button {
 
     /* Forms */
 
+<<<<<<< HEAD
+=======
+    legend,
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     label {
         font-size: 1rem;
     }
@@ -254,10 +258,13 @@ input[type="submit"], button {
         align-items: center;
     }
 
+<<<<<<< HEAD
     .selector .selector-filter label {
         margin: 0 8px 0 0;
     }
 
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     .selector .selector-filter input {
         width: 100%;
         min-height: 0;
@@ -277,6 +284,7 @@ input[type="submit"], button {
         margin-bottom: 5px;
     }
 
+<<<<<<< HEAD
     .selector ul.selector-chooser {
         width: 26px;
         height: 52px;
@@ -300,6 +308,9 @@ input[type="submit"], button {
     }
 
     a.selector-chooseall, a.selector-clearall {
+=======
+    .selector-chooseall, .selector-clearall {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
         align-self: center;
     }
 
@@ -321,8 +332,11 @@ input[type="submit"], button {
     }
 
     .stacked ul.selector-chooser {
+<<<<<<< HEAD
         width: 52px;
         height: 26px;
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
         padding: 0 2px;
         transform: none;
     }
@@ -331,6 +345,7 @@ input[type="submit"], button {
         padding: 3px;
     }
 
+<<<<<<< HEAD
     .stacked .selector-add, .stacked .selector-remove {
         background-size: 20px auto;
     }
@@ -367,6 +382,8 @@ input[type="submit"], button {
         background-position: 0 -20px;
     }
 
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     .help-tooltip, .selector .help-icon {
         display: none;
     }
@@ -401,6 +418,7 @@ input[type="submit"], button {
     /* Messages */
 
     ul.messagelist li {
+<<<<<<< HEAD
         padding-left: 55px;
         background-position: 30px 12px;
     }
@@ -411,6 +429,10 @@ input[type="submit"], button {
 
     ul.messagelist li.warning {
         background-position: 30px 14px;
+=======
+        padding: 10px 10px 10px 55px;
+        background-position-x: 30px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 
     /* Login */
@@ -481,11 +503,23 @@ input[type="submit"], button {
 
     /* Changelist */
 
+<<<<<<< HEAD
     #changelist {
         align-items: stretch;
         flex-direction: column;
     }
 
+=======
+    #changelist .changelist-form-container {
+        flex-direction: column;
+    }
+
+    #changelist .changelist-form-container:has(#changelist-filter) > div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     #toolbar {
         padding: 10px;
     }
@@ -508,12 +542,17 @@ input[type="submit"], button {
     }
 
     #changelist-filter {
+<<<<<<< HEAD
         position: static;
         width: auto;
+=======
+        width: 100%;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
         margin-top: 30px;
     }
 
     .object-tools {
+<<<<<<< HEAD
         float: none;
         margin: 0 0 15px;
         padding: 0;
@@ -527,6 +566,9 @@ input[type="submit"], button {
 
     .object-tools li + li {
         margin-left: 15px;
+=======
+        text-align: left;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 
     /* Forms */
@@ -565,6 +607,10 @@ input[type="submit"], button {
         padding-top: 15px;
     }
 
+<<<<<<< HEAD
+=======
+    .aligned legend,
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     .aligned label {
         width: 100%;
         min-width: auto;
@@ -639,6 +685,13 @@ input[type="submit"], button {
         margin-top: 5px;
     }
 
+<<<<<<< HEAD
+=======
+    form .aligned fieldset div.flex-container {
+        display: unset;
+    }
+
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     /* Related widget */
 
     .related-widget-wrapper {
@@ -649,6 +702,10 @@ input[type="submit"], button {
 
     .related-widget-wrapper .selector {
         order: 1;
+<<<<<<< HEAD
+=======
+        flex: 1 0 auto;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 
     .related-widget-wrapper > a {
@@ -679,9 +736,15 @@ input[type="submit"], button {
     }
 
     .selector ul.selector-chooser {
+<<<<<<< HEAD
         display: block;
         width: 52px;
         height: 26px;
+=======
+        display: flex;
+        width: 60px;
+        height: 30px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
         padding: 0 2px;
         transform: none;
     }
@@ -694,6 +757,7 @@ input[type="submit"], button {
         background-position: 0 0;
     }
 
+<<<<<<< HEAD
     .active.selector-remove:focus, .active.selector-remove:hover {
         background-position: 0 -20px;
     }
@@ -704,6 +768,18 @@ input[type="submit"], button {
 
     .active.selector-add:focus, .active.selector-add:hover {
         background-position: 0 -60px;
+=======
+    :enabled.selector-remove:focus, :enabled.selector-remove:hover {
+        background-position: 0 -24px;
+    }
+
+    .selector-add  {
+        background-position: 0 -48px;
+    }
+
+    :enabled.selector-add:focus, :enabled.selector-add:hover {
+        background-position: 0 -72px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 
     /* Inlines */
@@ -802,6 +878,7 @@ input[type="submit"], button {
     /* Messages */
 
     ul.messagelist li {
+<<<<<<< HEAD
         padding-left: 40px;
         background-position: 15px 12px;
     }
@@ -812,6 +889,10 @@ input[type="submit"], button {
 
     ul.messagelist li.warning {
         background-position: 15px 14px;
+=======
+        padding: 10px 10px 10px 40px;
+        background-position-x: 15px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     }
 
     /* Paginator */

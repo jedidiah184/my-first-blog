@@ -2,7 +2,11 @@
 
 .selector {
     display: flex;
+<<<<<<< HEAD
     flex-grow: 1;
+=======
+    flex: 1;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     gap: 0 10px;
 }
 
@@ -14,17 +18,31 @@
 }
 
 .selector-available, .selector-chosen {
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     display: flex;
     flex-direction: column;
     flex: 1 1;
 }
 
+<<<<<<< HEAD
 .selector-available h2, .selector-chosen h2 {
+=======
+.selector-available-title, .selector-chosen-title {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     border: 1px solid var(--border-color);
     border-radius: 4px 4px 0 0;
 }
 
+<<<<<<< HEAD
+=======
+.selector .helptext {
+    font-size: 0.6875rem;
+}
+
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 .selector-chosen .list-footer-display {
     border: 1px solid var(--border-color);
     border-top: none;
@@ -40,6 +58,7 @@
     color: var(--breadcrumbs-fg);
 }
 
+<<<<<<< HEAD
 .selector-chosen h2 {
     background: var(--secondary);
     color: var(--header-link-color);
@@ -48,6 +67,27 @@
 .selector .selector-available h2 {
     background: var(--darkened-bg);
     color: var(--body-quiet-color);
+=======
+.selector-chosen-title {
+    background: var(--secondary);
+    color: var(--header-link-color);
+    padding: 8px;
+}
+
+.selector-chosen-title label {
+    color: var(--header-link-color);
+    width: 100%;
+}
+
+.selector-available-title {
+    background: var(--darkened-bg);
+    color: var(--body-quiet-color);
+    padding: 8px;
+}
+
+.selector-available-title label {
+    width: 100%;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .selector .selector-filter {
@@ -59,6 +99,10 @@
     margin: 0;
     text-align: left;
     display: flex;
+<<<<<<< HEAD
+=======
+    gap: 8px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .selector .selector-filter label,
@@ -77,6 +121,7 @@
     flex-grow: 1;
 }
 
+<<<<<<< HEAD
 .selector .selector-available input,
 .selector .selector-chosen input {
     margin-left: 8px;
@@ -85,6 +130,11 @@
 .selector ul.selector-chooser {
     align-self: center;
     width: 22px;
+=======
+.selector ul.selector-chooser {
+    align-self: center;
+    width: 30px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     background-color: var(--selected-bg);
     border-radius: 10px;
     margin: 0;
@@ -114,13 +164,19 @@
 }
 
 .selector-add, .selector-remove {
+<<<<<<< HEAD
     width: 16px;
     height: 16px;
+=======
+    width: 24px;
+    height: 24px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     display: block;
     text-indent: -3000px;
     overflow: hidden;
     cursor: default;
     opacity: 0.55;
+<<<<<<< HEAD
 }
 
 .active.selector-add, .active.selector-remove {
@@ -128,10 +184,21 @@
 }
 
 .active.selector-add:hover, .active.selector-remove:hover {
+=======
+    border: none;
+}
+
+:enabled.selector-add, :enabled.selector-remove {
+    opacity: 1;
+}
+
+:enabled.selector-add:hover, :enabled.selector-remove:hover {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     cursor: pointer;
 }
 
 .selector-add {
+<<<<<<< HEAD
     background: url(../img/selector-icons.svg) 0 -96px no-repeat;
 }
 
@@ -190,6 +257,57 @@ a.selector-clearall {
 }
 
 a.active.selector-clearall:focus, a.active.selector-clearall:hover {
+=======
+    background: url(../img/selector-icons.svg) 0 -144px no-repeat;
+    background-size: 24px auto;
+}
+
+:enabled.selector-add:focus, :enabled.selector-add:hover {
+    background-position: 0 -168px;
+}
+
+.selector-remove {
+    background: url(../img/selector-icons.svg) 0 -96px no-repeat;
+    background-size: 24px auto;
+}
+
+:enabled.selector-remove:focus, :enabled.selector-remove:hover {
+    background-position: 0 -120px;
+}
+
+.selector-chooseall, .selector-clearall {
+    display: inline-block;
+    text-align: left;
+    padding: 4px 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: var(--button-fg);
+    background-color: var(--button-bg);
+    text-decoration: none;
+    opacity: 0.55;
+    border: none;
+    border-radius: 4px;
+}
+
+:enabled.selector-chooseall:focus, :enabled.selector-clearall:focus,
+:enabled.selector-chooseall:hover, :enabled.selector-clearall:hover {
+    background-color: var(--button-hover-bg);
+}
+
+:enabled.selector-chooseall, :enabled.selector-clearall {
+    opacity: 1;
+}
+
+:enabled.selector-chooseall:hover, :enabled.selector-clearall:hover {
+    cursor: pointer;
+}
+
+:enabled.selector-chooseall:focus, :enabled.selector-chooseall:hover {
+    background-position: 100% -176px;
+}
+
+:enabled.selector-clearall:focus, :enabled.selector-clearall:hover {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     background-position: 0 -144px;
 }
 
@@ -219,8 +337,14 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 }
 
 .stacked ul.selector-chooser {
+<<<<<<< HEAD
     height: 22px;
     width: 50px;
+=======
+    display: flex;
+    height: 30px;
+    width: 64px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     margin: 0 0 10px 40%;
     background-color: #eee;
     border-radius: 10px;
@@ -237,6 +361,7 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 }
 
 .stacked .selector-add {
+<<<<<<< HEAD
     background: url(../img/selector-icons.svg) 0 -32px no-repeat;
     cursor: default;
 }
@@ -248,21 +373,48 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 
 .stacked .active.selector-add:focus, .stacked .active.selector-add:hover {
     background-position: 0 -48px;
+=======
+    background: url(../img/selector-icons.svg) 0 -48px no-repeat;
+    background-size: 24px auto;
+    cursor: default;
+}
+
+.stacked :enabled.selector-add {
+    background-position: 0 -48px;
+    cursor: pointer;
+}
+
+.stacked :enabled.selector-add:focus, .stacked :enabled.selector-add:hover {
+    background-position: 0 -72px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     cursor: pointer;
 }
 
 .stacked .selector-remove {
     background: url(../img/selector-icons.svg) 0 0 no-repeat;
+<<<<<<< HEAD
     cursor: default;
 }
 
 .stacked .active.selector-remove {
+=======
+    background-size: 24px auto;
+    cursor: default;
+}
+
+.stacked :enabled.selector-remove {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     background-position: 0 0px;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .stacked .active.selector-remove:focus, .stacked .active.selector-remove:hover {
     background-position: 0 -16px;
+=======
+.stacked :enabled.selector-remove:focus, .stacked :enabled.selector-remove:hover {
+    background-position: 0 -24px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     cursor: pointer;
 }
 
@@ -296,6 +448,13 @@ p.datetime {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+p.datetime label {
+    display: inline;
+}
+
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 .datetime span {
     white-space: nowrap;
     font-weight: normal;
@@ -318,28 +477,49 @@ table p.datetime {
     position: relative;
     display: inline-block;
     vertical-align: middle;
+<<<<<<< HEAD
     height: 16px;
     width: 16px;
+=======
+    height: 24px;
+    width: 24px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     overflow: hidden;
 }
 
 .datetimeshortcuts .clock-icon {
     background: url(../img/icon-clock.svg) 0 0 no-repeat;
+<<<<<<< HEAD
+=======
+    background-size: 24px auto;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .datetimeshortcuts a:focus .clock-icon,
 .datetimeshortcuts a:hover .clock-icon {
+<<<<<<< HEAD
     background-position: 0 -16px;
+=======
+    background-position: 0 -24px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .datetimeshortcuts .date-icon {
     background: url(../img/icon-calendar.svg) 0 0 no-repeat;
+<<<<<<< HEAD
+=======
+    background-size: 24px auto;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     top: -1px;
 }
 
 .datetimeshortcuts a:focus .date-icon,
 .datetimeshortcuts a:hover .date-icon {
+<<<<<<< HEAD
     background-position: 0 -16px;
+=======
+    background-position: 0 -24px;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .timezonewarning {
@@ -557,10 +737,19 @@ ul.timelist, .timelist li {
 .inline-deletelink {
     float: right;
     text-indent: -9999px;
+<<<<<<< HEAD
     background: url(../img/inline-delete.svg) 0 0 no-repeat;
     width: 16px;
     height: 16px;
     border: 0px none;
+=======
+    background: url(../img/inline-delete.svg) center center no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0px none;
+    margin-bottom: .25rem;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 .inline-deletelink:focus, .inline-deletelink:hover {
