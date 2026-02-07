@@ -14,10 +14,7 @@ header {
 }
 
 ul{
-    /* border: solid; */
     display: flex;
-    /* width: 450px; */
-    /* margin-inline-end: auto; */
 }
 
 li{
