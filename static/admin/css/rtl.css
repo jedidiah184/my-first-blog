@@ -26,12 +26,16 @@ th {
 }
 
 .object-tools {
+<<<<<<< HEAD
+    float: left;
+=======
     text-align: left;
 }
 
 .object-tools li + li {
     margin-right: 15px;
     margin-left: 0;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 }
 
 thead th:first-child,
@@ -112,7 +116,11 @@ thead th.sorted .text {
     border-left: none;
 }
 
+<<<<<<< HEAD
+.paginator .end {
+=======
 .paginator ul {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     margin-left: 6px;
     margin-right: 0;
 }
@@ -225,6 +233,36 @@ fieldset .fieldBox {
 }
 
 .selector-add {
+<<<<<<< HEAD
+  background: url(../img/selector-icons.svg) 0 -64px no-repeat;
+}
+
+.active.selector-add:focus, .active.selector-add:hover {
+  background-position: 0 -80px;
+}
+
+.selector-remove {
+  background: url(../img/selector-icons.svg) 0 -96px no-repeat;
+}
+
+.active.selector-remove:focus, .active.selector-remove:hover {
+  background-position: 0 -112px;
+}
+
+a.selector-chooseall {
+    background: url(../img/selector-icons.svg) right -128px no-repeat;
+}
+
+a.active.selector-chooseall:focus, a.active.selector-chooseall:hover {
+    background-position: 100% -144px;
+}
+
+a.selector-clearall {
+    background: url(../img/selector-icons.svg) 0 -160px no-repeat;
+}
+
+a.active.selector-clearall:focus, a.active.selector-clearall:hover {
+=======
     background: url(../img/selector-icons.svg) 0 -96px no-repeat;
     background-size: 24px auto;
 }
@@ -247,6 +285,7 @@ fieldset .fieldBox {
 }
 
 :enabled.selector-clearall:focus, :enabled.selector-clearall:hover {
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     background-position: 0 -176px;
 }
 
@@ -288,8 +327,11 @@ form .form-row p.datetime {
 .selector .selector-chooser {
     margin: 0;
 }
+<<<<<<< HEAD
+=======
 
 ul.messagelist li {
     padding: 10px 65px 10px 10px;
     background-position-x: calc(100% - 40px);
 }
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4

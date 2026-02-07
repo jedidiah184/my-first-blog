@@ -20,6 +20,11 @@
       --border-color: #353535;
   
       --error-fg: #e35f5f;
+<<<<<<< HEAD
+      --message-success-bg: #006b1b;
+      --message-warning-bg: #583305;
+      --message-error-bg: #570808;
+=======
 
       --message-debug-bg: #4e4e4e;
       --message-debug-icon: url(../img/icon-debug-dark.svg);
@@ -31,6 +36,7 @@
       --message-warning-icon: url(../img/icon-alert-dark.svg);
       --message-error-bg: #570808;
       --message-error-icon: url(../img/icon-no-dark.svg);
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
   
       --darkened-bg: #212121;
       --selected-bg: #1b1b1b;
@@ -65,6 +71,11 @@ html[data-theme="dark"] {
     --border-color: #353535;
 
     --error-fg: #e35f5f;
+<<<<<<< HEAD
+    --message-success-bg: #006b1b;
+    --message-warning-bg: #583305;
+    --message-error-bg: #570808;
+=======
 
     --message-debug-bg: #4e4e4e;
     --message-debug-icon: url(../img/icon-debug-dark.svg);
@@ -76,6 +87,7 @@ html[data-theme="dark"] {
     --message-warning-icon: url(../img/icon-alert-dark.svg);
     --message-error-bg: #570808;
     --message-error-icon: url(../img/icon-no-dark.svg);
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
 
     --darkened-bg: #212121;
     --selected-bg: #1b1b1b;
@@ -100,8 +112,13 @@ html[data-theme="dark"] {
 
 .theme-toggle svg {
     vertical-align: middle;
+<<<<<<< HEAD
+    height: 1rem;
+    width: 1rem;
+=======
     height: 1.5rem;
     width: 1.5rem;
+>>>>>>> 1f8ce6a63cb16934f20dc8d6b811ef1b3cb282e4
     display: none;
 }
 
