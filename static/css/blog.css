@@ -1,21 +1,45 @@
+header {
+    background-color: #240404;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 a, h2 a {
     color: #C25100;
 }
-header {
-    background-color: #F2F2F2;
-    padding: 20px;
-
+body{
+    background-color: rgb(25, 24, 24);
 }
-.flex{
+
+
+
+ul{
     display: flex;
 }
 
-.hidden {
+li{
+    padding: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+h2.hidden {
     display: none;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #240404;
     padding: 20px;
 }
