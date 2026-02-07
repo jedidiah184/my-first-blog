@@ -10,16 +10,11 @@
 </head>
 <body>
     <header class="page-header">
-      <div class="container">
+      <div class="header">
         <h1><a href="/">Jedidiah Belayneh</a></h1>
-        <h1>Hello</h1>
-        <h2>I'm Jedidiah Belayneh</h2>
-        <h2>Software Developer</h2>
-      </div>
-
-      <div>
         <nav>
-            <ul>
+            <h2 class="hidden">nav</h2>    
+            <ul class="flex">
                 <li><a href="{% url 'post_list' %}">Home</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
@@ -30,21 +25,29 @@
     </header>
 
     <main class="container">
+        <section>
+            <div class="introduction">
+                <h1>Hello</h1>
+                <h2>I'm Jedidiah Belayneh</h2>
+                <h2>Software Developer</h2>
+            </div>   
+            <section>
+                <div>
+                    <p>My projects</p>
+                </div>
+                <div>
+                    <p>My Resume</p>
+                </div>
+            </section>
+
+        </section>
         <div class="row">
             <div class="col">
             {% block content %}
             {% endblock %}
             </div>
         </div>
-        <section>
-            <div>
-                <p>My projects</p>
-            </div>
-
-            <div>
-                <p>My Resume</p>
-            </div>
-        </section>
+        
     </main>
     
     <footer>
