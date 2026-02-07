@@ -1,17 +1,21 @@
+header {
+    background-color: #240404;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 a, h2 a {
     color: #C25100;
 }
 body{
     background-color: rgb(25, 24, 24);
 }
-header {
-    background-color: #240404;
-    padding: 20px;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-}
+
+
 
 ul{
     display: flex;
