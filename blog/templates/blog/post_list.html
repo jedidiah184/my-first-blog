@@ -1,51 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/static/blog/styles/styles.css">
+﻿{% extends 'blog/homepage.html' %}
 
-    <title>Profile Page</title>
-</head>
-<body>  
-    <header>
-        <h1><a href="/">Jedidiah Belayneh</a></h1>
-        <h1>Hello</h1>
-        <h2>I'm Jedidiah Belayneh</h2>
-        <h2>Software Developer</h2>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
-
-    {% for post in posts %}
-        <article>
-            <!-- <time>published: {{ post.published_date }}</time> -->
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text | linebreaksbr }}</p>        
-        </article>
-    {% endfor %}
-
-    <section> 
-    <div>
-        <p>My projects</p>
-    </div>
-
-    <div>
-        <p>My Resume</p>
-    </div>
-    </section>
-
-    <footer>
-        <h3>Jedidiah Belayneh</h3>
-        <p>&copy; 2024 Jedidiah Belayneh</p>
-        <img src="" alt="">
-    </footer>
-</body>
-</html>
+{% block content %}
+{% for post in posts %}
+    <article>
+        <!-- <time>published: {{ post.published_date }}</time> -->
+        <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+        <p>{{ post.text | linebreaksbr }}</p>
+    </article>
+{% empty %}
+    <p>No posts yet.</p>
+{% endfor %}
+{% endblock %}
