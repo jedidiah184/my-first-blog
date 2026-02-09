@@ -15,8 +15,13 @@ body{
     background-color: rgb(25, 24, 24);
 }
 
-
-
+.container {
+    color: #fff; 
+    
+}
+nav a{
+    text-decoration: none;
+}
 ul{
     display: flex;
 }

@@ -11,6 +11,9 @@ header {
 h1 a, h2 a {
     color: #C25100;
 }
+h1, h2, h3, p{
+    color: #fff; 
+}
 body{
     background-color: rgb(25, 24, 24);
 }
